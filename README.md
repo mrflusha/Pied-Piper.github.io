@@ -1,4 +1,4 @@
 <h1>HELL</h1>
-<p>in </p>
-<p>the</p>
+<p align="right">in </p>
+<p align="center">the</p>
 <p>world</p>
