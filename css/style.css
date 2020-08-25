@@ -1,88 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 *{
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	align-items: center;
+	display: flex;
 	
+	flex-flow: column wrap;
+	font-family: Roboto;
 }
 
-html{
-	width: 100vw;
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #EEEEEE;
+
 	
 
 }
+
+
 .head{
+	
+	
+	display: block;
 	position: fixed;
-	width: 100vw;
-	line-height: 8.4vmax;
+	
+	line-height: 5vmax;
+
+	width: 100%;
+	height: 8%;
 	
 	
 	
-	display: inline-flex;
 	background: #007765;
+	
+	
+	z-index: 5;
+
+	
+	
 	 
 }
 
 .logo{
-	display: inline-block;
-	
+	float: left;
+	margin-left: 4%;
+	margin-top: 0.5%;
+
 }
 
-.head ul{
-	text-align: center;
-	margin-right: 19.89vmax;
+
+
+}
+
+.menu{
+
+	display: block;
 	float: right;
+
 	
-	position: relative;
-	margin-bottom: 29px;
+	
+
 }
 
-.menu li {
-	display: inline-block;
+.menu ul {
+	
+	margin-top: 1.7%;
+	margin-left: 5%;
+
 	list-style-type: none;
+	position: relative;
+	flex-flow: row wrap;
+	
+	
 }
 
 li>a{
+	font-size: 1rem;
+	
+	align-self:   center;
+	
+	padding-right: 1vmax;
+	position: relative;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
-	font-size: 2.4vmax;
-	text-align: center;
+	
+	
+
+	
 
 	color: #FFFFFF;
 	text-decoration: none;
 	
 }
-.menu li:before{
-	content: "|";
-	color: #fff;
-	margin: 0.8vmax;
-	font-size: 2.4vmax;
-}
-.menu li:first-child:before{
-	content: " ";
-}
 
-.logo{
-	position: relative;
-	width: 9.1vmax;
-	height: 5.3vmax;
-	margin-top: 0.6vmax;
-	margin-left: 24.91vmax;
-}
 
-.logo > #upvector{
-	position: relative;
-	float: none;
-	overflow: none;
-	margin-top: 1.4vmax;
 
 	
 
+
+.team{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width:  50vmax;
 }
-#downvector{
-	margin-top: -48px;
+.people{
+	width:  16vmax;
+	align-self: center;
+	flex-wrap: wrap;
+}
+.peoples{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-flow: row wrap;
+
+}
+
+.footer{
+	
+	text-align: center;
+	background-color: #333333;
+	font-family: Roboto;
+	color: #afafaf;
+}
+
+
+/*second block*/
+
+#pipka{
+	
+	margin-top: 3%;
 	position: relative;
+	background-image: url("../img/bgg.png");
+	
+	min-width: 1219px;
+	min-height: 409px;
+	width: 100%;
+	
+	text-align: center;
+	color: #fafafa;
+}
+#pipka h1{
+	text-align: center;
+	margin-top: 8%;
+	font-size: 4rem;
+	
+}
+
+.problem{
+	display: block;
+	text-align: center;
+}
+
+.problem h1 a{
+	display: block;
+	position: relative;
+	text-align: center;
+	color: #007765;
+	
+	font-size: 100%;
+	font-family: Roboto;
+}
+
+#text{
+	text-align: left;
+	margin-left: 3%;
+	font-size: 1.5rem;
+}
+
+#jj{
+	display: flex;
+	justify-content: center;
+}
+
+#STR{
+	font-weight: bold;
+}
+
+#were{
+	background-image: url("../img/bgw.png");
+	
+	width: 100%;
+	color: #fafafa;
+	
+	text-align: center;
+	font-size: 3rem;
+	
 
 }
 
+#were i{
+	margin-bottom:10%; 
+	margin-top:10%;
+}
 
+.ppc h1{
+	text-align: center;
+	margin-top: 8%;
+	font-size: 4rem;
+	color: #007765;
+}
+
+#pic{
+	
+}
+
+#picee{
+
+	position: relative;
+	text-align: left;
+	float: left;
+	position: relative;
+	margin: 0;
+}
